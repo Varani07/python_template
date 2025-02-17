@@ -1,3 +1,1 @@
-from .settings import ConexaoBanco
-
-__all__ = ["ConexaoBanco"]
+from .settings import *

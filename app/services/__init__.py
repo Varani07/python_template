@@ -1,0 +1,1 @@
+from .jogador_service import JogadorService

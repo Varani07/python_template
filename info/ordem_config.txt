@@ -1,0 +1,66 @@
+1. Suíte de Testes Unificada:
+   1.1. Crie o arquivo tests/test_all.py
+        # Este arquivo reunirá todos os casos de teste (unitários e de integração)
+        # e os executará juntos.
+
+2. Testes Unitários:
+   2.1. Crie o arquivo tests/unit/test_cases.py
+        # Este arquivo conterá as instâncias (cenários) de teste da classe Jogador.
+   2.2. Crie o arquivo tests/unit/test_jogador.py
+        # Este arquivo conterá os testes unitários da classe Jogador,
+        # utilizando as instâncias definidas em jogador_test_cases.py.
+   2.3. Crie o arquivo tests/unit/__init__.py
+        # Opcional: pode conter comentários ou código para inicializar o pacote.
+
+3. Testes de Integração:
+   3.1. Crie o arquivo tests/integration/test_integration.py
+        # Contém testes que verificam a integração entre diferentes partes da aplicação.
+   3.2. Crie o arquivo tests/integration/__init__.py
+        # Opcional: pode conter comentários ou código para inicializar o pacote.
+
+4. Pacote Geral de Testes:
+   4.1. Crie o arquivo tests/__init__.py
+        # Este arquivo transforma o diretório 'tests' em um pacote Python.
+
+5. Modelos da Aplicação:
+   5.1. Crie o arquivo app/models/jogador.py
+   5.2. Crie o arquivo app/models/__init__.py
+
+6. Data Access Object (DAO):
+   6.1. Crie o arquivo app/dao/jogador_dao.py
+   6.2. Crie o arquivo app/dao/__init__.py
+
+7. Serviços da Aplicação:
+   7.1. Crie o arquivo app/services/jogador_service.py
+   7.2. Crie o arquivo app/services/__init__.py
+
+8. Interface do Usuário (UI):
+   8.1. Flask:
+         8.1.1. Crie o arquivo app/ui/flask/main_flask.py
+         8.1.2. Crie o arquivo app/ui/flask/__init__.py
+   8.2. Kivy:
+         8.2.1. Crie o arquivo app/ui/kivy/main_kivy.py
+         8.2.2. Crie o arquivo app/ui/kivy/__init__.py
+   8.3. Pacote Geral de UI:
+         8.3.1. Crie o arquivo app/ui/__init__.py
+
+9. Pacote Geral da Aplicação:
+   9.1. Crie o arquivo app/__init__.py
+
+10. Configurações:
+    10.1. Crie o arquivo config/settings.py
+         # Se desejar, pode expor objetos específicos do módulo aqui, como:
+         # from .settings import ConexaoBanco
+         # __all__ = ["ConexaoBanco"]
+    10.2. Crie o arquivo config/__init__.py
+
+11. Arquivos Base e Auxiliares:
+    11.1. Crie o arquivo .env.example
+    11.2. Crie o arquivo main.py
+    11.3. Crie o arquivo requirements.txt
+    11.4. Crie o arquivo Dockerfile
+    11.5. Crie o arquivo docker-compose.yml
+    11.6. Crie o arquivo Makefile
+    11.7. Crie o arquivo README.md
+    11.8. Crie o diretório docs/
+    11.9. Crie o arquivo .gitignore

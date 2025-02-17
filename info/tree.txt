@@ -1,0 +1,43 @@
+.
+├── config
+│   ├── __init__.py
+│   └── settings.py
+├── app
+│   ├── __init__.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   └── jogador.py
+│   ├── dao
+│   │   ├── __init__.py
+│   │   └── jogador_dao.py
+│   ├── services
+│   │   ├── __init__.py
+│   │   └── jogador_service.py
+│   └── ui
+│       ├── __init__.py
+│       ├── flask
+│       │   ├── __init__.py
+│       │   └── main_flask.py
+│       └── kivy
+│           ├── __init__.py
+│           └── main_kivy.py
+├── tests
+│   ├── __init__.py
+|   ├── cases.py
+│   ├── test_all.py
+│   ├── unit
+│   │   ├── __init__.py
+│   │   ├── test_cases.py
+│   │   └── test_jogador.py
+│   └── integration
+│       ├── __init__.py
+│       └── test_integration.py
+├── docs
+├── .env.example
+├── main.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── Makefile
+├── README.md
+└── .gitignore
